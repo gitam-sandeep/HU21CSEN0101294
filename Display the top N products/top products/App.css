@@ -1,0 +1,23 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.product-item, .product-details {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.product-item img, .product-details img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-filter {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 8px;
+}
